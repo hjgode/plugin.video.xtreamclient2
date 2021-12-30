@@ -21,7 +21,11 @@ The idea was to have one code for both Kodi 18 and 19, Python 2.7 and Python 3.7
 2.4.9:
   with enum.py and dependcies to urllib3 and reuests kodi python script libraries
   tested within docker/leia container
-  
+
+3.0.0:
+  added option to download video in combination with context.xtreamdownload context addon
+  added option (conext) to download stream via background script provided by script.xtreamdownload
+
 ## context.xtreamdownload:
 
 0.7.3:
@@ -29,3 +33,9 @@ The idea was to have one code for both Kodi 18 and 19, Python 2.7 and Python 3.7
 
 0.7.4:
     corrected settings.xml, added category label
+
+## script.xtreamdownload
+
+0.0.1:
+    initial release. This is a service script which gets commands to download from plugin.xtreamclient2. Uses a queue and background thread to download one by one.
+   
