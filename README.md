@@ -26,6 +26,9 @@ The idea was to have one code for both Kodi 18 and 19, Python 2.7 and Python 3.7
   added option to download video in combination with context.xtreamdownload context addon
   added option (conext) to download stream via background script provided by script.xtreamdownload
 
+3.0.1:
+  made the code run with Kodi Matrix (Python3)
+  
 ## context.xtreamdownload:
 
 0.7.3:
@@ -38,4 +41,6 @@ The idea was to have one code for both Kodi 18 and 19, Python 2.7 and Python 3.7
 
 0.0.1:
     initial release. This is a service script which gets commands to download from plugin.xtreamclient2. Uses a queue and background thread to download one by one.
-   
+
+0.0.2:
+    made code code compatible with Kodi Matrix (Python3)
