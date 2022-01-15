@@ -33,15 +33,20 @@ The idea was to have one code for both Kodi 18 and 19, Python 2.7 and Python 3.7
 
 3.1.0:
   compatible with Python 2 and 3
+
 3.2.0:
   started with database...
+
 3.3.0:
   database update and search finished
+
 3.3.1:
   added LiveArchive class
+
 4.0.0:
   adding LiveArchive for XBMC: Done
   added function to show oldest and newest epg entry datetime
+
 4.0.1:
   added Search Live Archive option
   changed addon.xml name->Xtream Plugin2 as label shows in header and was too long
