@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.xtreamdownload" name="Download Xtream content" version="0.0.3" provider-name="HJ_G">
+	<requires>
+
+	</requires>
+	<extension point="xbmc.python.script" library="default.py"/>
+  <!-- we can implement mutliple extension points -->
+  <extension point="xbmc.service"       library="service.py"></extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_GB">Extension for Xtreamclient2</summary>
+		<description lang="en_GB">This is needed for Xtreamclient2 Context menu item 'Download Stream'</description>
+		<platform>all</platform>
+		<license>GPL-2.0-only</license>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.jpg</fanart>
+		</assets>
+		<news>- add support for searching musicvideos by artist name</news>
+	</extension>
+</addon>

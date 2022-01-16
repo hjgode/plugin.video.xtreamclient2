@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<addons><addon id="context.xtreamdownload" name="Context menu item for Xtreamclient2" provider-name="HJ_G" version="0.8.0">
+		<requires>
+
+    </requires>
+		<extension library="addon.py" point="kodi.context.item">
+				<item>
+						<label>Download Xstream</label>
+						<visible>Window.IsActive(10025)+!ListItem.IsFolder</visible>
+				</item>
+		</extension>
+		<extension library="settings.py" point="xbmc.python.pluginsource">
+						<provides>executable</provides>
+		</extension>
+		<extension point="xbmc.addon.metadata">
+				<summary lang="en">Download Video from Xtreamclient Plugin</summary>
+				<description lang="en">Downloads videos from xtreamclient plugin into a directory.</description>
+				<platform>all</platform>
+				<language>en</language>
+				<license>GNU General Public License, v2</license>
+
+
+				<news>- None -</news>
+				<disclaimer lang="en">The use of the add-on could be illegal depending of the page and country you resident in.</disclaimer>
+				<assets>
+					<icon>icon.png</icon>
+				</assets>
+		</extension>
+</addon><addon id="plugin.video.xtreamclient2" name="Xtream Plugin2" provider-name="HJ_G" version="4.0.1">
+<requires>
+
+
+  <import addon="script.module.requests" />
+  <import addon="script.module.urllib3" />
+	  
+</requires>
+<extension library="main.py" point="xbmc.python.pluginsource">
+  <provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+  <summary lang="en">Example Kodi Xtream Plugin2</summary>
+  <description lang="en_GB">An example Python 2 Xtream plugin for Kodi mediacenter.</description>
+  <disclaimer lang="en_GB">Use at own risk. No warranty.</disclaimer>
+  <assets>
+    <icon>icon.png</icon>
+    <fanart>fanart.jpg</fanart>
+    <screenshot>resources\screenshot-01.jpg</screenshot>
+    <screenshot>resources\screenshot-02.jpg</screenshot>
+    <screenshot>resources\screenshot-03.jpg</screenshot>    
+    <screenshot>resources\screenshot-04.jpg</screenshot>    
+    <screenshot>resources\screenshot-05.jpg</screenshot>    
+  </assets>
+  <news>Kompatibel with Python 2.7 (Kodi Leia) and Python 3 (Kodi Matrix)</news>
+</extension>
+</addon><addon id="script.xtreamdownload" name="Download Xtream content" provider-name="HJ_G" version="0.0.3">
+	<requires>
+
+	</requires>
+	<extension library="default.py" point="xbmc.python.script" />
+  
+  <extension library="service.py" point="xbmc.service" />
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_GB">Extension for Xtreamclient2</summary>
+		<description lang="en_GB">This is needed for Xtreamclient2 Context menu item 'Download Stream'</description>
+		<platform>all</platform>
+		<license>GPL-2.0-only</license>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.jpg</fanart>
+		</assets>
+		<news>- add support for searching musicvideos by artist name</news>
+	</extension>
+</addon></addons>
