@@ -1,0 +1,9 @@
+0.7.3:
+    initial release
+
+0.7.4:
+    corrected settings.xml, added category label
+
+0.8.0:
+  changed name from Download It to "Context menu item for Xtreamclient2"
+  code compatible with python 2 and 3

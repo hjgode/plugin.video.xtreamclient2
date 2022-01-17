@@ -1,0 +1,12 @@
+0.0.1:
+  initial release
+
+0.0.2:
+  adding sqlite
+  cleanup code
+
+0.0.3:
+  code adopted to run with python2 and python3  
+  socket changed from file based POSIX (AF_UNIX) to AF_INET
+  fixed? strange filepath/downpath bug?
+  does not work inside x11docker kodi!

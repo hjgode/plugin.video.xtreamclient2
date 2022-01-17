@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<addon id="context.xtreamdownload" name="Context menu item for Xtreamclient2" provider-name="HJ_G" version="0.0.8">
+		<requires>
+<!--
+			<import addon="xbmc.python" version="2.20.0" />
+-->
+    </requires>
+		<extension library="addon.py" point="kodi.context.item">
+				<item>
+						<label>Download Xstream</label>
+						<visible>Window.IsActive(10025)+!ListItem.IsFolder</visible>
+				</item>
+		</extension>
+		<extension library="settings.py" point="xbmc.python.pluginsource">
+						<provides>executable</provides>
+		</extension>
+		<extension point="xbmc.addon.metadata">
+				<summary lang="en">Download Video from Xtreamclient Plugin</summary>
+				<description lang="en">Downloads videos from xtreamclient plugin into a directory.</description>
+				<platform>all</platform>
+				<language>en</language>
+				<license>GNU General Public License, v2</license>
+
+<!--
+				<website>https://kodian.gitlab.io/context.downloadit/</website>
+				<source>https://gitlab.com/kodian/context.downloadit/</source>
+-->
+				<news>- None -</news>
+				<disclaimer lang="en">The use of the add-on could be illegal depending of the page and country you resident in.</disclaimer>
+				<assets>
+					<icon>icon.png</icon>
+				</assets>
+		</extension>
+</addon>

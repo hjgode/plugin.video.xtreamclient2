@@ -1,0 +1,30 @@
+2.4.6:
+  fixed staffeln that come as list and not as dict, i.e. DE Action > Dr Who
+  fixed episode listing for empty season
+2.4.7:
+  some code cleanup
+2.4.8:
+  missing enum lib
+2.4.9:
+  with enum.py and dependcies to urllib3 and reuests kodi python script libraries
+  tested within docker/leia container
+3.0.0:
+  rewriting code to use classes
+  live_stream.py: Done
+3.1.0:
+  compatible with Python 2 and 3
+3.2.0:
+  started with database...
+3.3.0:
+  database update and search finished
+3.3.1:
+  added LiveArchive class
+4.0.0:
+  adding LiveArchive for XBMC: Done
+  added function to show oldest and newest epg entry datetime
+4.0.1:
+  added Search Live Archive option
+  changed addon.xml name->Xtream Plugin2 as label shows in header and was too long
+  
+  
+  

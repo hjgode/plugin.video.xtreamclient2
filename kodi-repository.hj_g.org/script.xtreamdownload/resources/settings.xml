@@ -1,0 +1,5 @@
+<settings>
+  <category label="Downloader Settings">
+      <setting id="sett_downpath" type="folder" label="Download path" default="" source="auto" option="writeable" />
+  </category>
+</settings>

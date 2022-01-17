@@ -1,0 +1,13 @@
+<settings>
+<category label="Connection Settings">
+     <setting id="sett_website" type="text" label="Website" default=""/>
+     <setting id="sett_username" type="text" label="Username" default=""/>
+     <setting id="sett_password" type="text" option="writeable,hidden" label="Password" default=""/>
+     <setting id="sett_portnumber" type="text" label="Port" default="80"/>
+</category>
+<category label="Other Settings">
+     <setting label="Filter settings" type="lsep"/>
+     <setting id="sett_filter" type="text" label="Filter" default="" />
+     <setting id="sett_filter_is_regex" type="bool" label="Use regex for filter" default="false" subsetting="true"/>
+</category>
+</settings>

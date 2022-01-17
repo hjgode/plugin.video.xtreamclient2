@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+    <category label="Connection Settings">
+        <setting label="Download Folder" type="folder" id="folder" source="auto" option="writeable"/>
+    </category>
+</settings>
