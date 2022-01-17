@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.hj_g" name="Hj_G Repository" version="0.0.1" provider-name="Hj_G">
+    <extension point="xbmc.addon.repository">
+        <info>https://github.com/hjgode/plugin.video.xtreamclient2/tree/main/datadir</info>
+        <checksum>https://github.com/hjgode/plugin.video.xtreamclient2/tree/main/datadir/addons.xml.md5</checksum>
+        <datadir>https://github.com/hjgode/plugin.video.xtreamclient2/tree/main/datadir</datadir>
+    </extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Xtream Test Repo</summary>
+		<description></description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+
